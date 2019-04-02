@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="59dp"
+        android:text="Times Of India"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="216dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="About ISRO Success"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="321dp"
+        android:layout_height="367dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="FROM building the first experimental satellite Aryabhata in 1975 to the world class operational Indian Remote Sensing (IRS) satellite series on the one hand and the third generation communication satellite INSAT-3 on the other, is indeed an impressive track record by any standards for the 30-year-old Indian Space Research Organisation (ISRO). It could well be argued that the development of launch vehicle technology, which began in the mid-1960s, has not achieved the same degree of success. Indeed, many, both within the organisation and without, believe that the launch vehicle front did not receive the same kind of focus as satellite development did, particularly after Satish Dhawan retired from ISRO in 1984. At a time when ISRO's launch vehicle development has reached an important phase with the launch of the Geosynchronous Satellite Launch Vehicle, it would be appropriate to put satellite technology development also in perspective.
+Vikram Sarabhai, the founder of the Indian space programme, had realised the potential of space communication systems in putting television to use as a mass education tool throughout the country. He visualised and suggested this as early as 1966-67, just three years after the first geosynchronous satellite, SYNCOM, was launched. In 1967 he initiated studies with a view to using space communication systems for operational television broadcasting. A joint study by ISRO and the National Aeronautics and Space Administration (NASA) of the United States was conducted in 1967 which recommended a hybrid system of direct broadcast by satellite combined with terrestrial TV transmitters as the most effective means of countrywide TV coverage. In 1968 a National Satellite Communication (NASCOM) study group was set up by the government. These studies and deliberations paved the way for the acceptance in 1969 by the government of the proposal to conduct the Satellite Instructional Television Experiment (SITE) with NASA's ATS-6 satellite. In 1969 studies were also conducted on the use of communication satellites for meteorological earth observations.
+
+BASED on these studies and a joint study with the Massachusetts Institute of Technology (MIT) in 1970, ISRO evolved in the early 1970s the unique multipurpose nature of the INSAT system that included direct TV broadcasting, communications and meteorological observations and it was firmed up during 1975-77."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="click"
+        android:onClick="Clickme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952"
+        tools:ignore="OnClick" />
+
+</android.support.constraint.ConstraintLayout>
